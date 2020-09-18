@@ -1,5 +1,28 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### `Installed Packages`
+*   `npm i react-flip-move`
+*   `npm i react-material-ui-carousel`
+*   `npm install react-spring`
+*   `npm install @stripe/stripe-js`
+*   `npm install @stripe/react-stripe-js`
+*   'npm i axios
+*   `firebase init`
+    *   Here you need to select : Firestore: Deploy rules and create indexes for Firestore (This will create new folder in the project called `function` which is for backend to write cloud functions)
+*   `> cd functions (folder) > npm install express`
+*   `> cd functions (folder) > npm install cros`
+*   `> cd functions (folder) > npm i stripe`
+*   `> cd functions (folder) > firebase emulators:start`
+    *   Here it will emulate on port number 5001 parallely (like API Service to do get and post calls)
+*   `npm install moment`
+    *   This is used to handle any type of Data time stamps
+*   `firebase deploy --only functions` 
+    *   This is to deploy backend function (function folder) to Firebase cloud
+*  `npm run build`
+*  `firebase deploy --only hosting`
+    *   This is to deploy UI (src folder) to Firebase cloud
+
+
 ## Available Scripts
 
 In the project directory, you can run:

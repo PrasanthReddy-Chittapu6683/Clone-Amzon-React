@@ -1,0 +1,17 @@
+.orderList {
+    padding: 40px;
+    margin: 20px 0;
+    border: 1px solid lightgray;
+    position: relative;
+    background-color: white;
+}
+.orderList__id {
+    position: absolute;
+    top: 40px;
+    right: 20px;
+}
+.orderList__total {
+    border-top: 1px solid lightGray;
+    font-weight: 500;
+    text-align: right;
+}
