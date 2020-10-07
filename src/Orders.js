@@ -31,8 +31,15 @@ function Orders() {
     }, [user])
     return (
         <div className="orders">
-            <div>
+            <div className="orders__borders">
                 <h1> Your Orders</h1>
+                {/* <input type="text" style="
+    float: right;
+    margin-top: -77px;
+    margin-right: 31px;
+    width: 322px;
+    height: 30px;
+"> */}
                 <div className="order__order">
                     {
                         orders?.map(order => (

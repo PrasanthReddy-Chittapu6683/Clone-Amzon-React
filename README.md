@@ -18,7 +18,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
     *   This is used to handle any type of Data time stamps
 *   `firebase deploy --only functions` 
     *   This is to deploy backend function (function folder) to Firebase cloud
-*  `npm run build`
+*  Build the application : `npm run build`
 *  `firebase deploy --only hosting`
     *   This is to deploy UI (src folder) to Firebase cloud
 

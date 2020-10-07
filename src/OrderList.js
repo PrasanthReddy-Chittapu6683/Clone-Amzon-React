@@ -7,11 +7,14 @@ import CurrencyFormat from 'react-currency-format';
 function OrderList({ order }) {
     return (
         <div className="orderList">
-            <h2>Order</h2>
-            <p>{moment.unix(order.data.created).format("MMMM Do YYYY, h:mma")} </p>
-            <p className="orderList__id">
-                <small><b>Order Id:</b> {order.id}</small>
-            </p>
+            <div className="orderList__header">
+
+                <h2>Order</h2>
+                <p>{moment.unix(order.data.created).format("MMMM Do YYYY, h:mma")} </p>
+                <p className="orderList__id">
+                    <small><b>Order Id:</b> {order.id}</small>
+                </p>
+            </div>
             {order.data.basket?.map(item => (
                 <CheckoutProduct
                     title={item.title}
