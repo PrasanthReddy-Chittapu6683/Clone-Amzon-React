@@ -22,7 +22,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 *  `firebase deploy --only hosting`
     *   This is to deploy UI (src folder) to Firebase cloud
 
-
+### For payment details we are using STRIPE account : https://dashboard.stripe.com/test/dashboard
 ## Available Scripts
 
 In the project directory, you can run:
